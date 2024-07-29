@@ -1,0 +1,65 @@
+# Django
+*.log
+*.pot
+*.pyc
+__pycache__/
+db.sqlite3
+/media
+/staticfiles
+
+# Django migrations
+*/migrations/*.py
+*/migrations/*.pyc
+
+# Environment files
+.env
+.env.*
+
+# IntelliJ IDEA / PyCharm
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Nova code editor
+*.sublime-project
+*.sublime-workspace
+
+# Node modules (if using Node.js)
+node_modules/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*.swp
+*~
+.nfs*
+
+# Virtual environment
+venv/
+.env/
+
+# Other
+*.sqlite3
+*.pyo
+*.pyd
+.Python
+pip-log.txt
+pip-delete-this-directory.txt
+coverage.xml
+*.cover
+*.py,cover
+
+# VS Code
+.vscode/
+
+# Jupyter Notebook
+.ipynb_checkpoints
